@@ -1,11 +1,15 @@
 import React from 'react';
 import SeriesAnalysis from './containers/seriesAnalysis';
+import StyledSettings from './settings/Styles';
+import { PageContainer } from './Styled';
 
 function App() {
   return (
-    <div style={{width: '100vw', height: '100vh', backgroundColor: '#fbfbfb'}}>
-      <SeriesAnalysis/>
-    </div>
+    <StyledSettings>
+      <PageContainer>
+        <SeriesAnalysis/>
+      </PageContainer>
+    </StyledSettings>
   );
 }
 

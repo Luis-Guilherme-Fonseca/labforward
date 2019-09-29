@@ -13,7 +13,7 @@ export const AnalysisType = styled.div`
   display: flex;
 
   > div {
-    border: 1.5px #222222 solid;
+    border: ${props => `1.5px solid ${props.theme.border}`};
     border-radius: 15px;
     padding: .4em;
     margin-right: 20px;
