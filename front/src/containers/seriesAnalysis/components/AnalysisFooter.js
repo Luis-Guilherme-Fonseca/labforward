@@ -4,10 +4,10 @@ import { AnalysisType, AnalysisBtn } from '../styled';
 function AnalysisFooter(props) {
   return (
     <AnalysisType>
-      <AnalysisBtn>
+      <AnalysisBtn onClick={() => props.changeType("peak")} selected={ props.type === "peak" } >
         <span>PEAK</span>
       </AnalysisBtn>
-      <AnalysisBtn>
+      <AnalysisBtn onClick={() => props.changeType("raw")} selected={ props.type === "raw" }>
         <span>COMPLETE</span>
       </AnalysisBtn>
     </AnalysisType>

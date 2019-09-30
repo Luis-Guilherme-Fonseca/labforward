@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import { ResponsiveContainer } from 'recharts';
 
 export const AnalysisContainer = styled.div`
   width: 100%;
