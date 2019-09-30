@@ -1,15 +1,15 @@
 import React from 'react'
-import { AnalysisType } from '../styled';
+import { AnalysisType, AnalysisBtn } from '../styled';
 
 function AnalysisFooter(props) {
   return (
     <AnalysisType>
-      <div>
+      <AnalysisBtn>
         <span>PEAK</span>
-      </div>
-      <div>
+      </AnalysisBtn>
+      <AnalysisBtn>
         <span>COMPLETE</span>
-      </div>
+      </AnalysisBtn>
     </AnalysisType>
   )
 }
