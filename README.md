@@ -24,5 +24,5 @@ After the dependencies installation proccess is finished run:
 
 ## Definition of done:
  - The user can view all 3 experiments data.
- - The user can select between viewing only the peaks or the whole data for each experiment.
+ - For each experiment the user can select peaks or whole data views.
  - The data from the experiments comes from an API.
